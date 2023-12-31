@@ -1,5 +1,5 @@
 # Object-Detection-Using-Deep-Learning
-Front End:
+## Front End:
 Define User Interface (UI):
 
 Determine the layout and design of your application.
@@ -25,7 +25,7 @@ Conduct UI testing to ensure a smooth and intuitive user experience.
 Documentation:
 
 Document the UI components, interactions, and any user instructions.
-Backend:
+## Backend:
 Select Backend Framework:
 
 Choose a backend framework such as Flask, Django, or Node.js.
@@ -51,7 +51,7 @@ Conduct unit testing and integration testing for the backend API.
 Documentation:
 
 Document API endpoints, request-response formats, and any backend-specific configurations.
-ML Model:
+## ML Model:
 Choose ML Framework:
 
 Select a machine learning framework like TensorFlow or PyTorch.
