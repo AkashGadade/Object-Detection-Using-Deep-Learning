@@ -1,4 +1,5 @@
 # Object-Detection-Using-Deep-Learning
+![Alt Text](https://miro.medium.com/v2/resize:fit:828/format:webp/1*Hz6t-tokG1niaUfmcysusw.jpeg)
 ## Front End:
 Define User Interface (UI):
 
