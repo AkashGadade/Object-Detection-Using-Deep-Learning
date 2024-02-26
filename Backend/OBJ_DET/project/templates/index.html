@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Detection</title>
+</head>
+<body>
+    <h2>Upload an Image</h2>
+
+    <form  method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="image" accept="image/*">
+        <button type="submit" name="action" value="upload">Upload</button>
+    </form>
+
+    <br>
+    <hr>
+
+    {% if my_model %}
+    <img src="{{ my_model.img.url }}" alt="Uploaded Image">
+    <h1>{{ my_model.img.url }}</h1>
+    {% endif %}
+
+    
+</body>
+</html>
